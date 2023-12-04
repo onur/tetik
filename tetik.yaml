@@ -1,0 +1,16 @@
+# Example tetik configuration file
+# You can put this file into $HOME/.config/tetik.yaml
+# or specify with --config command line argument
+
+# seconds to wait between updates
+interval: 30
+
+# connection timeout
+timeout: 10
+
+# AlertManager instances
+sources:
+- name: production
+  url: https://alertmanager.prod.example.com
+- name: staging
+  url: https://alertmanager.stage.example.com
