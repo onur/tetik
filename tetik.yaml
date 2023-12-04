@@ -8,7 +8,7 @@ interval: 30
 # connection timeout
 timeout: 10
 
-# AlertManager instances
+# Alertmanager instances
 sources:
 - name: production
   url: https://alertmanager.prod.example.com

@@ -1,6 +1,6 @@
 # tetik
 
-Command line AlertManager monitor for multiple instances.
+Command line Alertmanager monitoring tool for multiple instances.
 
 ![tetik-alerts](tetik-alerts.png)
 
