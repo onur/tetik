@@ -3,4 +3,4 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install -r requirements.txt && pip cache purge
 COPY . .
-CMD python -m tetik
+ENTRYPOINT ["python", "-m", "tetik"]
